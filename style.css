@@ -129,8 +129,20 @@ video{
     border: 2px solid white;
     padding: 15px;
 }
+.cards-sec-two div:hover{
+    background-color: black;
+    color: white;
+}
 
-.video-sizing{
-    height: 250px;
-    width: 250px;
+.video-sizing video{
+    height: 400px;
+    width: 500px;
+    margin-right: 10px;
+    justify-self:flex-end;
+}
+.inline{
+    display: inline;
+}
+.flex{
+    display: flex;
 }

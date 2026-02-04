@@ -1,0 +1,136 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+nav{
+    background-color: #0a0b1a;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.material-symbols-outlined {
+    font-size: smaller;
+}
+.get-in-touch{
+    margin-left: auto;
+    margin-right: 5px;
+    padding: 12px 28px;
+    text-align: right;
+    border: 2px solid white;
+    color: black;
+    background-color: white;
+    
+}
+
+.sec-one{
+    background-color: #0a0b1a;
+    color: white;
+}
+
+.same{
+    margin-top: 20px;
+    color: rgb(66, 66, 66);
+    margin-bottom: 10px;
+}
+
+.heading{
+    margin-bottom: 20px;
+}
+.head-btns{
+    font-size: smaller;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.one{
+    background-color: rgb(251, 198, 54);
+    border-color: rgb(251, 198, 54) ;
+    color: white;
+}
+.two{
+    background-color: black;
+    border-color: black;
+    color: wheat;
+}
+#container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px;
+    width: 350px;
+}
+#content-heading{
+    justify-self: flex-start;
+}
+video{
+    height: 500px;
+    width: 500px;
+    margin-left: 10px;
+}
+.cards{
+    justify-self: flex-end;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: stretch;
+}
+
+.two-cards-div{
+    border: 2px solid rgb(159, 157, 157);
+    padding: 15px;
+}
+
+.cards-div{
+    border: 2px solid rgb(159, 157, 157);
+    padding: 15px;
+}
+
+.cards-div div{
+    font-size: large;
+    padding: 5px;
+}
+
+.cards-div span{
+    font-size: smaller;
+}
+
+#sec-two{
+    background-color: white !important;
+    
+}
+
+.cards-sec-two{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 50px;
+    width: 100vw;
+    justify-content: space-evenly;
+}
+.cards-sec-two div{
+    justify-content: space-evenly;
+    height: 50px;
+    font-size: larger;
+    border: 2px solid white;
+    padding: 15px;
+}
+
+.video-sizing{
+    height: 250px;
+    width: 250px;
+}
